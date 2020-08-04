@@ -63,16 +63,6 @@ Retrieve class details.
 	{ "week_day": 5, "from": "12:00", "to": "20:00" }
 	]
 }`
-#### Update
-Still needs implementation
-##### Endpoint
-`PUT`
-#### Request parameter
-``
-##### Query parameter
-``
-##### Response parameter
-``
 
 ## *Connections*
 
@@ -92,3 +82,14 @@ Visualize connection count
 `{ "total": 1 }`
 
 ## Additional Notes
+
+#### Update
+Still needs implementation
+##### Endpoint
+`PUT /classes`
+#### Request parameter
+``
+##### Query parameter
+``
+##### Response parameter
+``
