@@ -31,8 +31,8 @@ Create new classes.
 `{
 	"name": "Some Dude/Chick",
 	"avatar": "www.some_place.com/some_image_location",
-	"whatsapp": "0797XXXXXX",
-	"bio" : "Getting born in the state of Mississippi Papa was a copper, and her mama was a hippy In Alabama she would swing a hammer Price you got to pay when you break the panoramaShe never knew that there was anything more than poor What in the world does your company take me for? Black bandanna, sweet Louisiana Robbing on a bank in the state of Indiana She's a runner Rebel, and a stunner On her merry way saying baby, watcha gonna? Looking down the barrel of a hot metal forty-five Just another way to survive California, rest in peace Simultaneous release California, show your teeth She's my priestess I'm your priest Yeah, yeah, yeah",
+	"whatsapp": "07XXXXXXXX",
+	"bio" : "Freedom or jail, clips inserted, a baby's being born, Same time my man is murdered, the beginning and end, As far as rap goes, it's only natural, I explain, My plateau, and also, what defines my name",
 	"subject": "Music",
 	"cost": 80,
 	"schedule": [
