@@ -27,7 +27,7 @@ Express, cors, typescript, ts-node-dev, knex and sqlite3.
 Create new classes.
 ##### Endpoint
 `POST /classes`
-##### Request paramenter
+##### Request parameter
 `{
 	"name": "Some Dude/Chick",
 	"avatar": "www.some_place.com/some_image_location",
@@ -41,15 +41,15 @@ Create new classes.
 	{ "week_day": 5, "from": "12:00", "to": "20:00" }
 	]
 }`
-##### Response paramenter
+##### Response parameter
 `Status 201 or error message`
 #### Retrieve
 Retrieve class details.
 ##### Endpoint
 `GET /classes` `?week_day=1&subject=Music&time=9%3A00`
-##### Query paramenter
+##### Query parameter
 `week_day`, `subject`, `time`
-##### Response paramenter
+##### Response parameter
 `{
 	"name": "Some Dude/Chick",
 	"avatar": "www.some_place.com/some_image_location",
@@ -69,9 +69,9 @@ Still needs implementation
 `PUT`
 #### Request parameter
 ``
-##### Query paramenter
+##### Query parameter
 ``
-##### Response paramenter
+##### Response parameter
 ``
 
 ## *Connections*
@@ -80,9 +80,9 @@ Still needs implementation
 Create connections
 ##### Endpoint
 `POST /connections`
-##### Request paramenter
+##### Request parameter
 `No params`
-##### Response paramenter
+##### Response parameter
 `Status 201 or error`
 #### Retrieve
 Visualize connection count
