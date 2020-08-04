@@ -12,7 +12,7 @@
 
 ## Motivation
 
-This repository holds the API for a project called `Proffy`, create during [Next Level Week #2](https://nextlevelweek.com/inscricao/2). In this bootcamp, we created a platform in which teachers can promote their services and students can get in contact with them.
+This repository holds the API for a project called `Proffy`, created during [Next Level Week #2](https://nextlevelweek.com/inscricao/2). In this bootcamp, we created a platform in which teachers can promote their services and students can get in contact with them.
 
 You can run it by cloning the repository. Execute the command `npm run knex:migrate` then `npm run start`.
 
