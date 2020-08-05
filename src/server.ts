@@ -12,7 +12,9 @@ app.use(express.json());
 
 app.use(routes);
 
-app.listen(port);
+app.listen(port, () => {
+    console.log(`server is running in ${port}`);
+});
 
 // GET: ACESS STUFF
 // POST: CREATE STUFF
