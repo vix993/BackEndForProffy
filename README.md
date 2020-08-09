@@ -6,8 +6,8 @@
 1. [Motivation](#Motivation) 
 2. [Requirements](#Requirements)
 3. [API](#API)
-    - [Survivors](#Classes)
-    - [Flags](#Connections)
+    - [Classes](#Classes)
+    - [Connections](#Connections)
 4. [Additional Notes](#AdditionalNotes)
 
 ## Motivation
