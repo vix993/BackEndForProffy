@@ -15,12 +15,3 @@ app.use(routes);
 app.listen(port, () => {
     console.log(`server is running in ${port}`);
 });
-
-// GET: ACESS STUFF
-// POST: CREATE STUFF
-// PUT: UPDATE STUFF
-// DELETE: DELETE STUFF
-
-// REQUEST BODY: DATA FOR REQUEST VALIDATION
-// Route Params: Identifying which resource needs to be edited e.g.: app.delete('/users/:id')
-// Query Params: Order, sort, pagify
