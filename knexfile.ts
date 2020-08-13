@@ -1,6 +1,7 @@
 import path from 'path';
 
 // Configuring database
+// http://knexjs.org/#Installation-client
 
 module.exports = {
     client: 'sqlite3',
