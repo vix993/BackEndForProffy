@@ -8,7 +8,7 @@
 3. [API](#API)
     - [Classes](#Classes)
     - [Connections](#Connections)
-4. [Additional Notes](#AdditionalNotes)
+4. [Additional Notes](#Additional Notes)
 
 ## Motivation
 
