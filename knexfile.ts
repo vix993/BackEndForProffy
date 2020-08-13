@@ -1,5 +1,7 @@
 import path from 'path';
 
+// Configuring database types
+
 module.exports = {
     client: 'sqlite3',
     connection: {
