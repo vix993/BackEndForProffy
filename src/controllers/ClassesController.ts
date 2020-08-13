@@ -3,14 +3,24 @@ import { Request, Response } from 'express';
 import db from '../database/connection';
 import converHoursToMinutes from '../utils/convertHoursToMinutes';
 
+// This class holds the potential operations on our teacher list
+
+// You can list the teachers that match your search query
+// search params: ?week_day=[e.g. 0-6 (sunday is 0, saturday is 6)]\
+// &subject=[e.g. English]&time=[e.g. 18:00]
+// All params must be provided
+
+// The user database has 3 different layers.
+// user information (name, bio, profile photo link and phone number)
+// class informaton (subject and cost)
+// schedule (weekday, from [e.g. 14:00] and to [e.g. 18:00])
+// The schedule times are converted to minutes when created
+
 interface ScheduleItem {
     week_day: number;
     from: string;
     to: string;
 }
-
-// Should technically not be used as a vehicle for pushing to our database
-// TO DO
 
 export default class ClassesController {
     async index(request: Request, response: Response) {
@@ -26,8 +36,6 @@ export default class ClassesController {
             });
         }
         const timeInMinutes = converHoursToMinutes(time);
-
-        console.log(timeInMinutes);
 
         // Access request parameters and compare them with database instances
         // then perform an inner join using the data

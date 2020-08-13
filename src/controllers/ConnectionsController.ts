@@ -1,6 +1,9 @@
 import { Request, Response } from 'express';
 import db from '../database/connection';
 
+// This class holds the available operations regarding access counts
+// we can GET the number of connections, and POST new connections
+
 export default class ConnectionsController {
     async index(request: Request, response: Response) {
         const totalConnections = await db('connections').count('* as total');
